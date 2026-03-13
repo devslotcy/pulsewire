@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Logs
+logs/
+*.log
+
+# Build
+.next/
+dist/
+build/
+out/
+
+# Bot runtime files
+seen_articles.json
+pulsewire-bot/logs/
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# OS
+.DS_Store
+
+# Test
+test.env
+playwright.config.ts
+tests/
+
+# Docker secrets
+docker-compose.override.yml
